@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39a46d81-c754-49f2-93e6-1dd655adf7ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/config/WebSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/controller/JoiaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/controller/VendaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/model/Joia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/model/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/model/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/repository/ItemPedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/repository/JoiaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/repository/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/repository/VendaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/security/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/service/ClienteNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/service/JoiaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/service/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joias-manager-api/src/main/java/br/com/joiasmanager/joias_manager_api/service/VendaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/joias-manager-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joias-manager-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joias-manager-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joias-manager-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/joias-manager-api/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tvOpYt76c8KqF03q24YKCo6UIP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JoiasManagerApiApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39a46d81-c754-49f2-93e6-1dd655adf7ca" name="Changes" comment="" />
+      <created>1741229265750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741229265750</updated>
+    </task>
+    <servers />
+  </component>
+</project>
