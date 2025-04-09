@@ -53,7 +53,7 @@ Uma API para gerenciar todos os aspectos de uma loja de joias, incluindo estoque
 - **Docker**: Para containerizar a aplicação.
 - **Swagger/OpenAPI**: Para documentação da API.
 - **Twilio ou Firebase**: Para notificações.
-- **GitHub Actions**: Para CI/CD.
+- **GitHub Actions**: Para CI/CD........
 --> 
 
 ## Exemplo de Endpoints:
